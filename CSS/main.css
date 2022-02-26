@@ -1,0 +1,121 @@
+.home {
+     width: 100%;
+     height: 100%;
+}
+
+/*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*/
+.bg-cover {
+     background-size: cover !important;
+}
+
+/* == */
+.navbar {
+     padding: 20px;
+}
+
+#carouselExampleControls img {
+     height: 700px !important;
+     box-shadow: inset 1 0 0 2000px rgba(94, 91, 93, 0.3) !important;
+}
+
+@media only screen and (max-width: 600px) {
+     #carouselExampleControls {
+          height: auto !important;
+          box-shadow: inset 1 0 0 2000px rgba(94, 91, 93, 0.3) !important;
+     }
+}
+
+/* Profile */
+#profile {
+     background-color: #343a40;
+     padding: 100px 0px;
+}
+
+#profile h2 {
+     font-size: 50px;
+     color: #f7f7f7;
+}
+
+#profile .hl {
+     width: 30%;
+     margin: auto;
+     height: 3px;
+     background: #212529;
+}
+
+#profile hr {
+     border: 1px solid;
+}
+
+#profile p {
+     color: #f7f7f7;
+}
+
+
+#profile table tr td {
+     color: #f7f7f7;
+}
+
+.profile-content p {
+     color: #f7f7f7;
+
+}
+
+@media only screen and (max-width: 600px) {
+     .card {
+          align-items: center;
+          align-content: center;
+     }
+}
+
+
+.card img {
+     height: 200px;
+}
+
+i {
+     font-size: 15 px;
+}
+
+/* Crousel */
+#Crousel {
+     margin: 100px;
+}
+
+/* Form */
+
+.contact-form {
+     background-color: #343a40;
+     color: #f7f7f7;
+     margin-bottom: 10px;
+}
+
+.contact-form h2 {
+     margin-bottom: 40px
+}
+
+.contact-form label {
+     color: #333
+}
+
+.contact-form .btn-send {
+     font-weight: 300;
+     text-transform: uppercase;
+     letter-spacing: 0.2em;
+     width: 80%;
+     margin-left: 3px
+}
+
+.contact-form .help-block.with-errors {
+     color: #ff5050;
+     margin-top: 5px
+}
+
+.contact-form .card {
+     margin-left: 10px;
+     margin-right: 10px
+}
